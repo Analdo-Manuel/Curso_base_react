@@ -1,15 +1,10 @@
-import { useActionState, useState } from "react"
 
-function App() {
-  const [count, setcount] = useState(0)
+export function App() {
+
   return (
     <>
-      <h1>Hello, React!</h1>
-      <button onClick={() => setcount( count + 1)}>
-        count {count}
-      </button>
+      <h1>React + TypeScript</h1>
     </>
   )
 }
 
-export default App
